@@ -1,7 +1,7 @@
 /* jshint node: true */
 'use strict';
 
-var RedisAdapter = require('./lib/redis');
+var S3IndexAdapter = require('./lib/s3-index');
 
 module.exports = {
   name: 'ember-deploy-redis',
@@ -9,7 +9,7 @@ module.exports = {
 
   adapters: {
     index: {
-      'redis': RedisAdapter
+      's3-index': S3IndexAdapter
     }
   }
 };

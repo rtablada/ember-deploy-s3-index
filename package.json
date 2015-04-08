@@ -1,7 +1,7 @@
 {
-  "name": "ember-deploy-redis",
+  "name": "ember-deploy-s3-index",
   "version": "0.0.2",
-  "description": "ember-deploy index-adapter for redis",
+  "description": "ember-deploy index-adapter for s3",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,7 +11,7 @@
     "build": "ember build",
     "test": "./node_modules/mocha/bin/mocha node_tests/**/*-test.js"
   },
-  "repository": "https://github.com/LevelbossMike/ember-deploy-redis",
+  "repository": "https://github.com/rtablada/ember-deploy-s3-index",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -44,8 +44,7 @@
   "dependencies": {
     "chalk": "^0.5.1",
     "core-object": "0.0.2",
-    "redis": "^0.12.1",
-    "rsvp": "^3.0.16",
-    "then-redis": "^1.2.2"
+    "s3": "^4.3.1",
+    "rsvp": "^3.0.16"
   }
 }
